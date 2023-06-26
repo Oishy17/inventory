@@ -1,0 +1,124 @@
+
+.home{
+    background-image: url(https://media.discordapp.net/attachments/1101866798061719642/1121747746341257356/wall.jpg?width=994&height=663);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 100%;
+}
+.nav{
+    color: aliceblue;
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+
+}
+.part2{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Itim', cursive;
+}
+.pp{
+    font-size: 50px;
+}
+.p{
+    font-size: 40px;
+}
+.button{
+    background-color: rgb(114, 114, 220);
+    color: rgb(251, 255, 255);
+    border-radius: 20%;
+    border-color: rgb(104, 104, 249);
+    font-size: 30px;
+    height: 70px;
+    width: 200px;
+  
+}
+.new{
+    font-size: 20px;
+    text-align: center;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    color: black;
+    background-color: rgb(222, 222, 243);
+   
+} 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    
+} 
+.card-img-top{
+    height: 160px;
+    width: 100%;
+}
+@media (max-width: 980px){ 
+    .home{
+    height: 380px;
+    width: 100%;
+}
+.nav{
+    font-size: 15px;
+
+}
+.pp{
+    font-size: 33px;
+}
+.p{
+    font-size: 25px;
+}
+.button{
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    
+}
+.new{
+    font-size: 15px;
+}  
+}
+.ee{
+    font-size: 40px;
+    text-align: center;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .search-button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .card-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .num{
+    opacity: 60%;
+  }
+  .cart{
+    background-color: rgb(59, 59, 203);
+    width: 100%;
+    height: 20%;
+    color: #ccc;  
+  }
+  .card-text{
+    font-size: 15px;
+  }
